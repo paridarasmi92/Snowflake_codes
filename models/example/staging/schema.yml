@@ -1,0 +1,8 @@
+
+version: 2
+sources:
+  - name: Test_dbt
+    database: TEST_DB
+    schema: raw_schema
+    tables:
+     - name: customer_raw_data
